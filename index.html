@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manajemen Produk - DummyJSON API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Manajemen Produk</h1>
+
+        <div id="error-message" class="error-box hidden"></div>
+
+        <div class="form-card">
+            <h2 id="form-title">Tambah Produk Baru</h2>
+            <form id="product-form">
+                <input type="hidden" id="product-id">
+
+                <div class="form-group">
+                    <label for="product-title">Nama Produk:</label>
+                    <input type="text" id="product-title" required placeholder="Masukkan nama produk...">
+                </div>
+
+                <div class="form-group">
+                    <label for="product-price">Harga ($):</label>
+                    <input type="number" id="product-price" required placeholder="Masukkan harga...">
+                </div>
+
+                <div class="button-group">
+                    <button type="submit" id="btn-submit" class="btn btn-primary">Simpan Produk</button>
+                    <button type="button" id="btn-cancel" class="btn btn-secondary hidden">Batal</button>
+                </div>
+            </form>
+        </div>
+
+        <h2>Daftar Produk</h2>
+        <div id="loading" class="loading">Memuat data produk...</div>
+        <div id="product-list" class="grid-container"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
