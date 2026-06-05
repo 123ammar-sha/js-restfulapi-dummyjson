@@ -29,22 +29,19 @@ Aplikasi ini adalah proyek web satu halaman (SPA) yang mensimulasikan manipulasi
 **Clone Repositori Ini**
 
 ```bash
-git clone [https://github.com/USERNAME_KAMU/NAMA_REPO_KAMU.git](https://github.com/USERNAME_KAMU/NAMA_REPO_KAMU.git)
+git clone git clone https://github.com/123ammar-sha/js-restfulapi-dummyjson.git
 ```
 
 **Masuk Ke direktori hasil clone atau download repo**
 
-```
-
-```
+<img width="1000" height="373" alt="image" src="https://github.com/user-attachments/assets/4d0c8c83-7432-4746-a7bb-b14c29ef5c44" />
 
 **Jalankan File HTML**
 
 Dobleclikc file index.html
 
-```
+<img width="1000" height="373" alt="image" src="https://github.com/user-attachments/assets/5aeff0ce-d57c-485b-a966-93c9d09be391" />
 
-```
 
 ⚠️ Catatan Khusus: Karena DummyJSON merupakan Mock API, semua operasi data (Tambah/Ubah/Hapus) bersifat simulasi di sisi client dan tida
 tersimpan permanen di database server mereka. Jika halaman di-refresh, daftar produk akan kembali ke data bawaan awal.
